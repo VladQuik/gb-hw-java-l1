@@ -11,22 +11,22 @@ package HW2;
 public class HomeWorkApp {
     public static void main(String[] args) {
         //Задание 1
-        System.out.println(checkSumInRange(1, 19));
+        System.out.println(between10And20(1, 19));
         //Задание 2
-        checkValue(1);
+        isPositiveOrNegative(1);
         //Задание 3
-        System.out.println(checkValueBool(-1));
+        System.out.println(isNegative(-1));
         //Задание 4
-        printString("Тестовая строка", 5);
+        printWordNTimes("Тестовая строка", 5);
         //Задание 5
-        System.out.println(checkYear(1600));
+        System.out.println(isLeapYear(1600));
     }
     //Задание 1
-    public static boolean checkSumInRange(int a, int b) {
+    public static boolean between10And20(int a, int b) {
         return (a + b) >= 10 && (a + b) <= 20;
     }
     //Задание 2
-    public static void checkValue(int a) {
+    public static void isPositiveOrNegative(int a) {
         if (a <= 0) {
             System.out.println("Передано отрицательное число");
         } else {
@@ -34,18 +34,18 @@ public class HomeWorkApp {
         }
     }
     //Задание 3
-    public static boolean checkValueBool(int a) {
+    public static boolean isNegative(int a) {
         return (a <= 0);
     }
 
     //Задание 4
-    public static void printString(String a, int b) {
+    public static void printWordNTimes(String a, int b) {
         for (int i = 0; i < b; i++) {
             System.out.println(a);
         }
     }
     //Задание 5
-    public static boolean checkYear(int year) {
+    public static boolean isLeapYear(int year) {
         return (year % 400 == 0 || (year % 100 != 0) && (year % 4 == 0));
     }
 }
