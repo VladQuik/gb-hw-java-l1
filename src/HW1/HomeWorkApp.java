@@ -1,5 +1,5 @@
 /*
-1. Создать пустой проект в IntelliJ IDEA, создать класс HomeWorkApp, и прописать в нем метод main().
+1. Создать пустой проект в IntelliJ IDEA, создать класс HW1.HomeWorkApp, и прописать в нем метод main().
 2. Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.
 _Orange
 _Banana
@@ -20,6 +20,8 @@ _Apple
 
 6. Методы из пунктов 2-5 вызовите из метода main() и посмотрите корректно ли они работают.
  */
+
+package HW1;
 
 public class HomeWorkApp {
 
